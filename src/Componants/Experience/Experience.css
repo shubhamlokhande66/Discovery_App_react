@@ -1,0 +1,366 @@
+
+
+
+.Expvideo{
+    margin-top: -1em;
+      margin-right: 90em;
+  }
+  #ExpVideo {
+    width: 100% ! important;
+    height: 100%   !important;
+    object-fit: fill;
+position:absolute;
+
+
+}
+.menubar {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1 {
+  width: 25px;
+  height: 2px;
+  background-color: #F5F5F5;
+  margin: 0px 6px;
+  transition: 0.5s;
+align-content: flex-end;
+}
+.bar2{
+  width: 25px;
+  height: 2px;
+  background-color:#F5F5F5;
+  margin: 0 6px;
+  transition: 0.8s;
+  margin-top: 2px;
+}
+.bar3{
+  width: 15px;
+  height: 2px;
+  background-color:#F5F5F5;
+  margin: 0 16px;
+  transition: 0.4s;
+  margin-top: 2px;
+  text-align: end;
+}
+/* .On-video:hover{
+  color: #00F;
+} */
+.header{
+    transform: translate3d(0px, 0px, 0px);
+    height: var(--header-normal);
+    z-index: 1;
+    content: "";
+    position: absolute;
+    /* top: -1.5rem;
+    left: -1.5rem;
+    right: -1.5rem;
+    bottom: -1.5rem; */
+    /* position: fixed; */
+    top: -2em;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    pointer-events: none;
+}
+.navbar{
+
+    display: flex;
+    /* align-items: flex-end; */
+    /* justify-content: right; */
+    /* align-items: flex-end; */
+    pointer-events: all;
+    content: "";
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+    right: -1.5rem;
+    bottom: -1.5rem;
+    position: relative; 
+    z-index: 2;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font: 14.5549px ; 
+}
+.menu{
+    position: relative;
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    left: -1.5rem;
+  }
+
+  .About{
+    position: relative;
+    display: block;
+    margin-right: 3rem;
+    font-family: messina-sans;
+   
+    overflow: hidden;
+    z-index: 2;
+    color: #fff;
+    
+    
+  }
+  .paragraph{
+    color: #111;
+    margin-top: 30em;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    
+  }
+  .division1{
+    max-width: 59rem;
+    margin-left: 15em;
+  text-align: center;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+  }
+  .memory{
+    display: block;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 90%;
+    left: 25%;
+    font-family:"calibri", Garamond, 'Comic Sans MS';;
+    font-size: 2rem;
+    /* margin-left: 30%; */
+  }
+  .memory1{
+    display: block;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    left: 25%;
+    font-size: 2rem;
+    font-family: "calibri", Garamond, 'Comic Sans MS';
+  }
+  .ride{
+    margin-top: -65%;
+    width: 65%;
+    height: 100% ;
+    margin-left: 80%;
+  }
+  .head{
+    margin-top: 30%;
+    margin-left: -35%;
+    line-height: 1.1;
+    color: #111;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .para1{
+    margin-left: 19%;
+    width: 30em;
+  }
+  a, li, p {
+    line-height: 2;
+    font-size: .9rem;
+  }
+  .style{
+    display: block;
+    text-align: start;
+    margin-left: 1em;
+        position: relative;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+  }
+  .headex{
+    position: absolute;
+    margin-top: 60em;
+  }
+  .background-grey{
+    transform: translate3d(0px, -2269px, 0px);
+    background-color: #f3f3f3;
+    margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 290%;
+      margin-top: 305%;
+      content: "";
+      position: absolute;
+      /* top: 50%; */
+      
+  }
+  .grey-smooth{
+    position: absolute;
+     
+      background-color:#D3D3D3;
+      left: 0;
+      right: 0;
+      width: 60%;
+      height: 25%;
+      margin-left: 20%;
+      margin-top: 20%;
+  }
+  .man-golf-img{
+    width: 127%;
+    height: 121%;
+    margin-left: -84%;
+    margin-top: -18%;
+    z-index: 2;
+    object-fit: cover;
+    position: absolute;
+  }
+  .container{
+    /* padding: 2px 16px; */
+    width: 65%;
+    height: 96%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position:absolute ;
+    z-index: 2;
+  
+      margin-left: 55%;
+      margin-top: -14%;
+  }
+  .Golf-Tittle{
+    margin-top: 20%;
+    font-family: gt-sectra;
+    color: #111;
+    margin-left: -63%;
+  }
+  p {
+    text-align: center;
+    display: block;
+    
+  
+    margin-inline-start: 38px;
+    margin-inline-end:40px;
+    line-height: 2;
+      font-size: 1rem;
+  }
+  .text-golf{
+    color: #777;
+    font-family: messina-sans;
+    margin-block-start: 2em;
+    margin-block-end: 4em;
+   
+      
+  }
+  .box-golf{
+    width: 150px;
+    height: 60px;
+    border: 1px solid #777;;
+    margin-top: -5%;
+    margin-left: 10%;
+  }
+  .explore{
+    margin-left: 10%;
+ color: rgb(27, 24, 24);
+    margin-top: 10%;
+    font-family: messina-sans;
+  }
+  .grey-smooth2{
+    position: absolute;
+  
+      background-color:#D3D3D3;
+      left: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      margin-left: 22%;
+      margin-top: 220%;
+  }
+  
+  .mountain-img{
+    width: 145%;
+    height: 48em;
+    margin-left: -40%;
+    margin-top: -32%;
+    z-index: 2;
+    object-fit: cover;
+    position: absolute;
+  }
+  .container2{
+    width: 79%;
+    height: 78%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position:absolute ;
+    z-index: 2;
+   
+      margin-left: -20%;
+      margin-top: -7%;
+  }
+  .mountain-Tittle{
+    margin-top: 20%;
+    font-family: gt-sectra;
+    color: #111;
+    margin-left: -33%;
+  }
+  .text-mountain{
+    color: #777;
+    font-family: messina-sans;
+    margin-block-start: 0em;
+    margin-block-end: 4em;
+  }
+  .box-golf2{
+    width: 150px;
+    height: 60px;
+    border: 1px solid #777;;
+    margin-top: 10%;
+    margin-left: 8%;  
+  }
+  .explore2{
+    margin-left: 6%;
+    margin-top: 10%;
+    color: black;
+    font-family: messina-sans;
+  }
+  .ocean-tree{
+    margin-top: 295%;
+    margin-left: -2.9em;
+    width: 93.7em;
+  }
+  .title34{
+    margin-top: -35%;
+    position: absolute;
+    margin-left: 40%;
+    font-family: gotham;
+   
+  }
+  .title-inner{
+    font-size: 45.7227px;
+    color: #ffffff;
+  }
+  .box-golf3{
+    width: 150px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    margin-top: -20%;
+    margin-left: 42%; 
+    position: absolute;
+    z-index: 2; 
+  }
+  .explore3{
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: messina-sans;
+    color: #ffffff;
+  }
+
+  .footer1{
+    -webkit-animation: hang 2s infinite  alternate;
+    animation: hang 3s normal  alternate;
+    position: absolute;
+      background-color: #161f1e;
+      /* transform: translateY(-0.167411px) translate3d(0px, 0px, 0px); */
+      /* z-index: 2; */
+      content: "";
+      /* position: relative; */
+      
+      padding: 5%;
+      width: 90%;
+      height: 50%;
+      margin-top: -2em;
+      z-index: -1;
+      
+  }
